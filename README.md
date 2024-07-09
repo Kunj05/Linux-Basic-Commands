@@ -12,6 +12,15 @@
 - **var**: variable data, data that frequently changes over time.
 # Linux Commands In One Place
 
+- [Navigation Commands](#navigation-commands)
+- [Files and Directories](#files-and-directories)
+- [Text File Manipulation Commands](#text-file-manipulation-commands)
+- [System Information Commands](#system-information-commands)
+- [User and Permission Management Commands](#user-and-permission-management-commands)
+- [Networking Commands](#networking-commands)
+
+---
+
 ## Navigation Commands
 
 - `pwd`: Display the current working directory.
