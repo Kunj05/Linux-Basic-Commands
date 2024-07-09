@@ -360,9 +360,4 @@
         3  pwd
     ```
 
-- `clear`: Clear the terminal screen.
-  - Example:
-    ```bash
-    $ clear
-    ```
 
