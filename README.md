@@ -66,21 +66,130 @@
 
 # General Commands
 
-- `w`: Display who is logged on and what they are doing.
+- `w`: Display information about currently logged in users and what each user is doing.
+  - Example:
+    ```bash
+    $ w
+    23:35:01 up  2:29,  1 user,  load average: 0.72, 1.07, 1.04
+    USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+    john     :1       :1               21:04   ?xdm?  34:58   0.01s /usr/lib
+    ```
+
 - `whoami`: Display the current logged in user's username.
+  - Example:
+    ```bash
+    $ whoami
+    john
+    ```
+
 - `groups`: Display the groups the user belongs to.
+  - Example:
+    ```bash
+    $ groups
+    john adm cdrom sudo dip plugdev lpadmin sambashare
+    ```
+
 - `id`: Display user and group information.
+  - Example:
+    ```bash
+    $ id
+    uid=1000(john) gid=1000(john) groups=1000(john),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),116(lpadmin),126(sambashare)
+    ```
+
 - `hostname`: Display the system's hostname.
+  - Example:
+    ```bash
+    $ hostname
+    myhostname
+    ```
+
 - `date`: Display or set the system date and time.
+  - Example:
+    ```bash
+    $ date
+    Tue Jul  9 23:35:01 UTC 2024
+    ```
+
 - `uptime`: Display the system uptime.
+  - Example:
+    ```bash
+    $ uptime
+    23:35:01 up  2:29,  1 user,  load average: 0.72, 1.07, 1.04
+    ```
+
 - `uname -a`: Display detailed system information.
+  - Example:
+    ```bash
+    $ uname -a
+    Linux myhostname 5.4.0-42-generic #46-Ubuntu SMP Fri Jul 10 00:24:02 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+    ```
+
 - `df`: Display disk space usage information.
+  - Example:
+    ```bash
+    $ df
+    Filesystem     1K-blocks     Used Available Use% Mounted on
+    udev             1998172        0   1998172   0% /dev
+    tmpfs             404128     1272    402856   1% /run
+    /dev/sda1       30458336 15129504  13853072  53% /
+    ```
+
 - `du`: Display disk usage of files and directories.
+  - Example:
+    ```bash
+    $ du -h
+    4.0K    ./Desktop
+    1.6G    ./Downloads
+    2.1G    ./Documents
+    ```
+
 - `free`: Display memory usage.
+  - Example:
+    ```bash
+    $ free
+                  total        used        free      shared  buff/cache   available
+    Mem:        4048172     1512344     1385300       12324     1150528     2308296
+    Swap:       2097148           0     2097148
+    ```
+
 - `top`: Display a list of running processes.
+  - Example:
+    ```bash
+    $ top
+    top - 23:35:01 up  2:29,  1 user,  load average: 0.72, 1.07, 1.04
+    Tasks: 174 total,   1 running, 173 sleeping,   0 stopped,   0 zombie
+    %Cpu(s):  2.2 us,  0.7 sy,  0.0 ni, 96.8 id,  0.2 wa,  0.0 hi,  0.1 si,  0.0 st
+    KiB Mem :  4048172 total,  1512344 free,  1385300 used,  1150528 buff/cache
+    KiB Swap:  2097148 total,  2097148 free,        0 used.  2308296 avail Mem 
+    ```
+
 - `ps`: Display currently running processes.
+  - Example:
+    ```bash
+    $ ps
+      PID TTY          TIME CMD
+    21549 pts/0    00:00:00 bash
+    21879 pts/0    00:00:00 ps
+    ```
+
 - `kill [pid]`: Terminate a process by its PID.
+  - Example:
+    ```bash
+    $ kill 1234
+    ```
+
 - `history`: Display the command history.
+  - Example:
+    ```bash
+    $ history
+        1  ls
+        2  cd ..
+        3  pwd
+    ```
+
 - `clear`: Clear the terminal screen.
-- `man [command]`: Display the manual page
+  - Example:
+    ```bash
+    $ clear
+    ```
 
