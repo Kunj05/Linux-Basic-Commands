@@ -12,7 +12,7 @@
 - **var**: variable data, data that frequently changes over time.
 # Linux Commands In One Place
 
-## Navigation
+## Navigation Commands
 
 - `pwd`: Display the current working directory.
 - `ls`: List files and directories in the current directory.
@@ -35,14 +35,14 @@
   - `rm -r [directory_name]`: Delete a directory and its contents recursively.
 - `cat [file_name]`: Display the contents of a specific file.
 
-## Text File Manipulation
+## Text File Manipulation Commands
 
 - `nano` or `vim`: Edit text files in the terminal.
 - `echo [text]`: Display text in the terminal.
   - `echo [text] > [file_name]`: Save text to a file (overwrite content).
   - `echo [text] >> [file_name]`: Append text to a file (without overwriting).
 
-## System Information
+## System Information Commands
 
 - `uname`: Display information about the system.
   - `uname -a`: Display detailed system information.
@@ -50,7 +50,7 @@
 - `free`: Display memory usage.
 - `df`: Display disk space usage information.
 
-## User and Permission Management
+## User and Permission Management Commands
 
 - `sudo`: Execute commands as a superuser (root).
 - `useradd`: Add a new user.
@@ -58,9 +58,29 @@
 - `chmod`: Change file/directory permissions.
 - `chown`: Change file/directory ownership.
 
-## Networking
+## Networking Commands
 
 - `ping [ip_address]`: Send ICMP echo packets to an IP address.
 - `ifconfig` or `ip`: Display network interface information.
 - `ssh [username]@[ip_address]`: Connect to a remote machine using Secure Shell (SSH).
+
+# General Commands
+
+- `w`: Display who is logged on and what they are doing.
+- `whoami`: Display the current logged in user's username.
+- `groups`: Display the groups the user belongs to.
+- `id`: Display user and group information.
+- `hostname`: Display the system's hostname.
+- `date`: Display or set the system date and time.
+- `uptime`: Display the system uptime.
+- `uname -a`: Display detailed system information.
+- `df`: Display disk space usage information.
+- `du`: Display disk usage of files and directories.
+- `free`: Display memory usage.
+- `top`: Display a list of running processes.
+- `ps`: Display currently running processes.
+- `kill [pid]`: Terminate a process by its PID.
+- `history`: Display the command history.
+- `clear`: Clear the terminal screen.
+- `man [command]`: Display the manual page
 
