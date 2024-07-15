@@ -10,6 +10,10 @@ The Open Web Application Security Project (OWASP) is a worldwide not-for-profit 
 
 The OWASP Top Ten is a standard awareness document for developers and web application security. It represents a broad consensus about the most critical security risks to web applications. The list is updated regularly to reflect the evolving landscape of web application security threats.
 
+#### OWASP References
+- [OWASP Official Website](https://owasp.org/)
+- [OWASP Top Ten Project](https://owasp.org/www-project-top-ten/)
+
 ## Table of Contents
 1. [SQL Injection (SQLi)](#sql-injection-sqli)
 2. [Cross-Site Scripting (XSS)](#cross-site-scripting-xss)
@@ -105,10 +109,69 @@ Web vulnerabilities are security weaknesses in web applications that can be expl
     - **Prevention**: Implement comprehensive logging and monitoring solutions and regularly review logs.
     - **Cheat Sheet**: [Logging Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
 
-## References and Documentation
+## Bug Bounty Programs
+
+Bug bounty programs are initiatives run by organizations that invite security researchers to find and report vulnerabilities in their systems in exchange for rewards. This approach helps companies identify and fix security issues before they can be exploited maliciously.
+
+### Websites for Bug Bounty Programs
+
+- [HackerOne](https://hackerone.com/)
+- [Bugcrowd](https://www.bugcrowd.com/)
+- [Cobalt](https://cobalt.io/)
+- [Synack](https://www.synack.com/)
+- [ImmuneFi](https://immunefi.com/)
+- [HackenProof](https://hackenproof.com/)
+- [Huntr (OSS Bounty)](https://huntr.dev/)
+- [Facebook Bug Bounty](https://www.facebook.com/whitehat/)
+- [Google Vulnerability Reward Program](https://www.google.com/about/appsecurity/)
+
+### Articles for Starting in Bug Bounty Hunting
+
+Here are some helpful articles and resources to get started in bug bounty hunting:
+
+- [How to Get Started in Bug Bounty](https://infosecwriteups.com/how-to-get-started-into-bug-bounty-1be52b3064e0)
+- [Beginner Bug Bounty Guide](https://takshilp.medium.com/beginner-bug-bounty-guide-365e4c00d730)
+- [Bug Bounty Beginner Roadmap](https://github.com/bittentech/Bug-Bounty-Beginner-Roadmap)
+
+### Recommended Books
+
+For further reading on web security and bug bounty hunting, consider these books:
+
+- *The Web Application Hacker’s Handbook*
+- *OWASP Testing Guide*
+- *The Tangled Web: A Guide to Securing Modern Web Applications*
+- *Web Hacking 101*
+- *Breaking into Information Security*
+- *Mastering Modern Web Penetration Testing*
+- *The Mobile Application Hacker's Handbook*
+- *OWASP Mobile Security Testing Guide (MSTG)*
+
+## Security Labs
+
+To practice and improve your web security skills, consider using the following platforms:
+
+- [TryHackMe](https://tryhackme.com/): An online platform providing hands-on cybersecurity training.
+- [PortSwigger Web Security Academy](https://portswigger.net/web-security): Free online training for learning about web security vulnerabilities and how to exploit them.
+
+## Documentation
+
+For detailed documentation on web security best practices and vulnerability prevention, refer to the following resources:
+
+- [OWASP Cheat Sheets](https://cheatsheetseries.owasp.org/)
+- [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
+
+## YouTube Channels
+
+Check out these YouTube channels for tutorials, walkthroughs, and insights into web security:
+
+- [NahamSec](https://www.youtube.com/c/NahamSec)
+- [CyberWings Security](https://www.youtube.com/cyberwingssecurity)
+
+## References and Further Reading
 
 - [OWASP Top Ten Project](https://owasp.org/www-project-top-ten/)
 
 ## Conclusion
 
-Understanding and addressing web vulnerabilities is essential for creating secure web applications. By following best practices and regularly reviewing security measures, developers can significantly reduce the risk of exploitation and protect user data.
+Understanding and addressing web vulnerabilities is essential for creating secure web applications. By following best practices and regularly reviewing security measures, developers can minimize the risk of attacks and protect user data.
+
