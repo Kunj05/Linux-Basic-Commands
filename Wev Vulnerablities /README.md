@@ -151,22 +151,46 @@ Web vulnerabilities are security weaknesses in web applications that can be expl
     - **Prevention**: Use input validation and restrict file system access, employ whitelists for allowed file paths.
     - **Cheat Sheet**: [Path Traversal Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Path_Traversal_Prevention_Cheat_Sheet.html)
 
+# Bug Bounty and Web Security Resources
+
+## Documentation and References
+
+- [OWASP Cheat Sheets](https://cheatsheetseries.owasp.org/): Comprehensive cheat sheets for various web application security topics, including XSS, SQLi, and more.
+- [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/): Detailed guidelines for performing effective web application security testing.
+- [OWASP Top Ten](https://owasp.org/www-project-top-ten/): List of the top 10 critical security risks in web applications, updated periodically.
+- [OWASP Code Review Guide](https://owasp.org/www-project-code-review-guide/): Best practices and techniques for conducting secure code reviews to identify vulnerabilities.
+- [OWASP API Security Project](https://owasp.org/www-project-api-security/): Resources and guidelines for securing APIs against common security threats and risks.
+
 ## Bug Bounty Programs
 
-Bug bounty programs are initiatives run by organizations that invite security researchers to find and report vulnerabilities in their systems in exchange for rewards. This approach helps companies identify and fix security issues before they can be exploited maliciously.
+- [HackerOne](https://www.hackerone.com/): Platform for running bug bounty programs and vulnerability coordination.
+- [Bugcrowd](https://www.bugcrowd.com/): Crowdsourced security platform that connects organizations with cybersecurity researchers.
+- [Synack](https://www.synack.com/): Security platform that leverages a crowdsourced network for penetration testing and vulnerability discovery.
+- [Intigriti](https://www.intigriti.com/): Ethical hacking and bug bounty platform connecting businesses with security researchers.
+- [YesWeHack](https://www.yeswehack.com/): European bug bounty and vulnerability disclosure platform.
+- [Open Bug Bounty](https://www.openbugbounty.org/): Open community bug bounty platform that allows anyone to report vulnerabilities.
 
-### Articles for Starting in Bug Bounty Hunting
+## Security Labs and Resources
 
-Here are some helpful articles and resources to get started in bug bounty hunting:
+- [TryHackMe](https://tryhackme.com/): Online platform that teaches cybersecurity through hands-on virtual labs.
+- [Hack The Box](https://www.hackthebox.eu/): Penetration testing labs that simulate real-world scenarios for practicing hacking skills.
+- [PortSwigger Web Security Academy](https://portswigger.net/web-security): Free online web security training resources from the creators of Burp Suite.
+- [PentesterLab](https://pentesterlab.com/): Hands-on exercises and labs for learning web penetration testing techniques.
+- [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/): Vulnerable web application for practicing web security testing and exploitation techniques.
+- [DVWA - Damn Vulnerable Web Application](http://www.dvwa.co.uk/): Deliberately vulnerable web application for security testing purposes.
+- [Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/): Free online course that covers the basics of using Metasploit for penetration testing.
+- [Exploit-DB](https://www.exploit-db.com/): Archive of exploits and shellcode for vulnerability research and exploitation.
 
-- [How to Get Started in Bug Bounty](https://infosecwriteups.com/how-to-get-started-into-bug-bounty-1be52b3064e0)
-- [Beginner Bug Bounty Guide](https://takshilp.medium.com/beginner-bug-bounty-guide-365e4c00d730)
-- [Bug Bounty Beginner Roadmap](https://github.com/bittentech/Bug-Bounty-Beginner-Roadmap)
-- [How to Start in Bug Bounty Hunting: My Personal Experience](https://riccardomalatesta.com/how-to-start-in-bug-bounty-hunting-my-personal-experience/)
-- [My Experience for 2 Years in Bug Bounty Hunting](https://ahmdhalabi.medium.com/my-experience-for-2-years-in-bug-bounty-hunting-b22d03f98ed3)
-- [Found Bugs, Got Paid, Stayed Poor: Making a Living with Bug Bounties](https://medium.com/@slava-moskvin/found-bugs-got-paid-stayed-poor-making-a-living-with-bug-bounties-04ba1fbbab73)
+## Articles for Starting in Bug Bounty Hunting
 
-### Recommended Books
+- [How to Get Started in Bug Bounty](https://infosecwriteups.com/how-to-get-started-into-bug-bounty-1be52b3064e0): Guide on entering the bug bounty hunting field and getting your first bounty.
+- [Beginner Bug Bounty Guide](https://takshilp.medium.com/beginner-bug-bounty-guide-365e4c00d730): Step-by-step guide for beginners interested in bug bounty hunting.
+- [Bug Bounty Beginner Roadmap](https://github.com/bittentech/Bug-Bounty-Beginner-Roadmap): Roadmap and resources for starting a career in bug bounty hunting.
+- [How to Start in Bug Bounty Hunting: My Personal Experience](https://riccardomalatesta.com/how-to-start-in-bug-bounty-hunting-my-personal-experience/): Personal insights and tips from an experienced bug bounty hunter.
+- [My Experience for 2 Years in Bug Bounty Hunting](https://ahmdhalabi.medium.com/my-experience-for-2-years-in-bug-bounty-hunting-b22d03f98ed3): Two-year journey of learning and earning through bug bounty hunting.
+- [Found Bugs, Got Paid, Stayed Poor: Making a Living with Bug Bounties](https://medium.com/@slava-moskvin/found-bugs-got-paid-stayed-poor-making-a-living-with-bug-bounties-04ba1fbbab73): Insights into the financial aspects and challenges of bug bounty hunting.
+
+## Recommended Books
 
 For further reading on web security and bug bounty hunting, consider these books:
 
@@ -179,37 +203,7 @@ For further reading on web security and bug bounty hunting, consider these books
 - *The Mobile Application Hacker's Handbook*
 - *OWASP Mobile Security Testing Guide (MSTG)*
 
-## Resources
-
-### Documentation and References
-
-- [OWASP Cheat Sheets](https://cheatsheetseries.owasp.org/)
-- [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
-- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)
-- [OWASP Code Review Guide](https://owasp.org/www-project-code-review-guide/)
-- [OWASP API Security Project](https://owasp.org/www-project-api-security/)
-
-### Bug Bounty Programs
-
-- [HackerOne](https://www.hackerone.com/)
-- [Bugcrowd](https://www.bugcrowd.com/)
-- [Synack](https://www.synack.com/)
-- [Intigriti](https://www.intigriti.com/)
-- [YesWeHack](https://www.yeswehack.com/)
-- [Open Bug Bounty](https://www.openbugbounty.org/)
-
-### Security Labs and Resources
-
-- [TryHackMe](https://tryhackme.com/)
-- [Hack The Box](https://www.hackthebox.eu/)
-- [PortSwigger Web Security Academy](https://portswigger.net/web-security)
-- [PentesterLab](https://pentesterlab.com/)
-- [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/)
-- [DVWA - Damn Vulnerable Web Application](http://www.dvwa.co.uk/)
-- [Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/)
-- [Exploit-DB](https://www.exploit-db.com/)
-
-### YouTube Channels
+## YouTube Channels
 
 - [NahamSec](https://www.youtube.com/channel/UC9Qa_gXarSmObPX3ooIQZrg): Tutorials and discussions on ethical hacking and bug bounty hunting.
 - [CyberWings Security](https://www.youtube.com/cyberwingssecurity): Educational content on cybersecurity topics.
