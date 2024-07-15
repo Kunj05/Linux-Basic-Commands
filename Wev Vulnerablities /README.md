@@ -146,19 +146,20 @@ For further reading on web security and bug bounty hunting, consider these books
 - *The Mobile Application Hacker's Handbook*
 - *OWASP Mobile Security Testing Guide (MSTG)*
 
-## Security Labs
+## Security Labs and Resources
 
 To practice and improve your web security skills, consider using the following platforms:
 
 - [TryHackMe](https://tryhackme.com/): An online platform providing hands-on cybersecurity training.
 - [PortSwigger Web Security Academy](https://portswigger.net/web-security): Free online training for learning about web security vulnerabilities and how to exploit them.
 
-## Documentation
+## Documentation and References
 
-For detailed documentation on web security best practices and vulnerability prevention, refer to the following resources:
+For detailed documentation on web security best practices, vulnerability prevention, and further reading, refer to the following resources:
 
 - [OWASP Cheat Sheets](https://cheatsheetseries.owasp.org/)
 - [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
+- [OWASP Top Ten Project](https://owasp.org/www-project-top-ten/)
 
 ## YouTube Channels
 
@@ -167,11 +168,6 @@ Check out these YouTube channels for tutorials, walkthroughs, and insights into 
 - [NahamSec](https://www.youtube.com/c/NahamSec)
 - [CyberWings Security](https://www.youtube.com/cyberwingssecurity)
 
-## References and Further Reading
-
-- [OWASP Top Ten Project](https://owasp.org/www-project-top-ten/)
-
 ## Conclusion
 
 Understanding and addressing web vulnerabilities is essential for creating secure web applications. By following best practices and regularly reviewing security measures, developers can minimize the risk of attacks and protect user data.
-
