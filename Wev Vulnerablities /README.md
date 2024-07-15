@@ -132,6 +132,9 @@ Here are some helpful articles and resources to get started in bug bounty huntin
 - [How to Get Started in Bug Bounty](https://infosecwriteups.com/how-to-get-started-into-bug-bounty-1be52b3064e0)
 - [Beginner Bug Bounty Guide](https://takshilp.medium.com/beginner-bug-bounty-guide-365e4c00d730)
 - [Bug Bounty Beginner Roadmap](https://github.com/bittentech/Bug-Bounty-Beginner-Roadmap)
+- [How to Start in Bug Bounty Hunting: My Personal Experience](https://riccardomalatesta.com/how-to-start-in-bug-bounty-hunting-my-personal-experience/)
+- [My Experience for 2 Years in Bug Bounty Hunting](https://ahmdhalabi.medium.com/my-experience-for-2-years-in-bug-bounty-hunting-b22d03f98ed3)
+- [Found Bugs, Got Paid, Stayed Poor: Making a Living with Bug Bounties](https://medium.com/@slava-moskvin/found-bugs-got-paid-stayed-poor-making-a-living-with-bug-bounties-04ba1fbbab73)
 
 ### Recommended Books
 
@@ -150,8 +153,9 @@ For further reading on web security and bug bounty hunting, consider these books
 
 To practice and improve your web security skills, consider using the following platforms:
 
-- [TryHackMe](https://tryhackme.com/): An online platform providing hands-on cybersecurity training.
+- [TryHackMe](https://tryhackme.com/): An online platform providing hands-on cybersecurity training. Check out [NahamStore](https://tryhackme.com/r/room/nahamstore) for practical exercises curated by NahamSec.
 - [PortSwigger Web Security Academy](https://portswigger.net/web-security): Free online training for learning about web security vulnerabilities and how to exploit them.
+- [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/): A vulnerable web application for learning and practicing web application security testing techniques.
 
 ## Documentation and References
 
@@ -165,8 +169,11 @@ For detailed documentation on web security best practices, vulnerability prevent
 
 Check out these YouTube channels for tutorials, walkthroughs, and insights into web security:
 
-- [NahamSec](https://www.youtube.com/c/NahamSec)
-- [CyberWings Security](https://www.youtube.com/cyberwingssecurity)
+- [NahamSec](https://www.youtube.com/channel/UC9Qa_gXarSmObPX3ooIQZrg): Tutorials and discussions on ethical hacking and bug bounty hunting.
+- [CyberWings Security](https://www.youtube.com/cyberwingssecurity): Educational content on cybersecurity topics.
+- [Metasploitation](https://www.youtube.com/channel/UC9Qa_gXarSmObPX3ooIQZrg): Videos focusing on Metasploit tutorials and demonstrations.
+- [Bug Bounty Reports Explained](https://www.youtube.com/c/BugBountyReportsExplained): Analyzes and explains bug bounty reports and findings.
+- [Ryan - PHDsec](https://www.youtube.com/c/ryanphdsec): Security research and tutorials on penetration testing and bug hunting.
 
 ## Conclusion
 
