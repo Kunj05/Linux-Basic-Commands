@@ -110,46 +110,46 @@ Web vulnerabilities are security weaknesses in web applications that can be expl
    - **Cheat Sheet**: [Access Control Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html)
 
 ## Using Components with Known Vulnerabilities
-    - **Description**: This occurs when applications use libraries, frameworks, or other software modules with known security vulnerabilities.
-    - **Example**: Using an outdated version of a third-party library with a known vulnerability.
-    - **Prevention**: Regularly update and patch software components and use tools to identify known vulnerabilities.
-    - **Cheat Sheet**: [Using Components with Known Vulnerabilities](https://cheatsheetseries.owasp.org/cheatsheets/Using_Components_with_Known_Vulnerabilities.html)
+- **Description**: This occurs when applications use libraries, frameworks, or other software modules with known security vulnerabilities.
+- **Example**: Using an outdated version of a third-party library with a known vulnerability.
+- **Prevention**: Regularly update and patch software components and use tools to identify known vulnerabilities.
+- **Cheat Sheet**: [Using Components with Known Vulnerabilities](https://cheatsheetseries.owasp.org/cheatsheets/Using_Components_with_Known_Vulnerabilities.html)
 
 ## Insufficient Logging and Monitoring
-    - **Description**: Insufficient logging and monitoring allow attackers to exploit systems without detection, hindering the response to security incidents.
-    - **Example**: A breach goes unnoticed due to lack of logs and alert mechanisms.
-    - **Prevention**: Implement comprehensive logging and monitoring solutions and regularly review logs.
-    - **Cheat Sheet**: [Logging Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
+- **Description**: Insufficient logging and monitoring allow attackers to exploit systems without detection, hindering the response to security incidents.
+- **Example**: A breach goes unnoticed due to lack of logs and alert mechanisms.
+- **Prevention**: Implement comprehensive logging and monitoring solutions and regularly review logs.
+- **Cheat Sheet**: [Logging Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
 
 ## Server-Side Request Forgery (SSRF)
-    - **Description**: SSRF allows attackers to send crafted requests from the server, potentially accessing internal resources.
-    - **Example**: An attacker manipulates a server-side request to access internal APIs or resources.
-    - **Prevention**: Validate and restrict server-side requests, use whitelists for allowed domains, and apply network segmentation.
-    - **Cheat Sheet**: [Server-Side Request Forgery (SSRF) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html)
+- **Description**: SSRF allows attackers to send crafted requests from the server, potentially accessing internal resources.
+- **Example**: An attacker manipulates a server-side request to access internal APIs or resources.
+- **Prevention**: Validate and restrict server-side requests, use whitelists for allowed domains, and apply network segmentation.
+- **Cheat Sheet**: [Server-Side Request Forgery (SSRF) Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html)
 
 ## Remote Code Execution (RCE)
-    - **Description**: RCE vulnerabilities allow attackers to execute arbitrary code on a server or system.
-    - **Example**: An attacker exploits a vulnerable application to execute commands on the server.
-    - **Prevention**: Implement input validation and sanitization, apply least privilege principles, and use secure coding practices.
-    - **Cheat Sheet**: [Remote Code Execution Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Remote_Code_Execution_Prevention_Cheat_Sheet.html)
+- **Description**: RCE vulnerabilities allow attackers to execute arbitrary code on a server or system.
+- **Example**: An attacker exploits a vulnerable application to execute commands on the server.
+- **Prevention**: Implement input validation and sanitization, apply least privilege principles, and use secure coding practices.
+- **Cheat Sheet**: [Remote Code Execution Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Remote_Code_Execution_Prevention_Cheat_Sheet.html)
 
 ## File Upload Vulnerabilities
-    - **Description**: File upload vulnerabilities allow attackers to upload malicious files, leading to remote code execution or unauthorized access.
-    - **Example**: Uploading a file with a disguised executable payload.
-    - **Prevention**: Validate file types and extensions, store uploads outside the web root, and scan files for malware.
-    - **Cheat Sheet**: [File Upload Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html)
+- **Description**: File upload vulnerabilities allow attackers to upload malicious files, leading to remote code execution or unauthorized access.
+- **Example**: Uploading a file with a disguised executable payload.
+- **Prevention**: Validate file types and extensions, store uploads outside the web root, and scan files for malware.
+- **Cheat Sheet**: [File Upload Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html)
 
 ## Command Injection
-    - **Description**: Command injection vulnerabilities occur when an application executes commands provided by an attacker.
-    - **Example**: An attacker injects `; rm -rf /` in a command execution parameter.
-    - **Prevention**: Use parameterized commands, avoid using shell commands with user input, and sanitize inputs.
-    - **Cheat Sheet**: [Command Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Command_Injection_Prevention_Cheat_Sheet.html)
+- **Description**: Command injection vulnerabilities occur when an application executes commands provided by an attacker.
+- **Example**: An attacker injects `; rm -rf /` in a command execution parameter.
+- **Prevention**: Use parameterized commands, avoid using shell commands with user input, and sanitize inputs.
+- **Cheat Sheet**: [Command Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Command_Injection_Prevention_Cheat_Sheet.html)
 
 ## Path Traversal
-    - **Description**: Path traversal vulnerabilities allow attackers to access files and directories outside the web root.
-    - **Example**: Modifying a URL path to access sensitive files like `../../etc/passwd`.
-    - **Prevention**: Use input validation and restrict file system access, employ whitelists for allowed file paths.
-    - **Cheat Sheet**: [Path Traversal Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Path_Traversal_Prevention_Cheat_Sheet.html)
+- **Description**: Path traversal vulnerabilities allow attackers to access files and directories outside the web root.
+- **Example**: Modifying a URL path to access sensitive files like `../../etc/passwd`.
+- **Prevention**: Use input validation and restrict file system access, employ whitelists for allowed file paths.
+- **Cheat Sheet**: [Path Traversal Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Path_Traversal_Prevention_Cheat_Sheet.html)
 
 # Bug Bounty and Web Security Resources
 
